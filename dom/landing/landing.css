@@ -1,0 +1,150 @@
+body {
+  background-image: url(./skins/background.png);
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial";
+  overflow-x: hidden;
+}
+
+img {
+  position: absolute;
+  display: block;
+  margin: 0px;
+  border: none;
+  padding: 0px;
+}
+
+div {
+  position: absolute;
+}
+
+/* #content-container {
+  display: block;
+  position: relative;
+  width: 1280px;
+  width: 1280px;
+  height: 832px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.animasi {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+.tombol-aktif {
+  padding: 25px 80px;
+  margin-top: 700px;
+  margin-left: 1180px;
+  border-radius: 30px;
+  float: right;
+  font-family: Montserrat;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.biru {
+  background-color: #3498db;
+  border-bottom: 5px solid #2980b9;
+  text-shadow: 0px -2px #2980b9;
+}
+
+.tombol-aktif:active {
+  transform: translate(100px, 52px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
+}
+
+#logo {
+  top: 30px;
+  left: 40px;
+  width: 118px;
+  height: 78px;
+}
+
+#kee {
+  top: 50px;
+  left: 10px;
+  text-align: left;
+  width: 135px;
+  height: 56px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 40px;
+  line-height: 26.099998474121px;
+  padding-top: 13.900001525879px;
+  margin-top: -13.900001525879px;
+  letter-spacing: 10.520000457764px;
+  color: #4e6269;
+}
+
+#boo {
+  top: 0px;
+  left: 0px;
+  width: 163px;
+  height: 92px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 40px;
+  text-align: left;
+  line-height: 33.599998474121px;
+  padding-top: 6.4000015258789px;
+  margin-top: -6.4000015258789px;
+  color: #4e6269;
+}
+
+#asset1 {
+  top: 181px;
+  left: 0px;
+  width: 800px;
+  height: 700px;
+}
+
+#group_1text {
+  top: 178px;
+  left: 904px;
+  width: 519px;
+  height: 383px;
+}
+
+#tak_ada_yang_lebih_mahal_dari_kesehatan {
+  top: 0px;
+  left: 180px;
+  width: 400px;
+  height: 98px;
+  overflow: hidden;
+  font-family: Nunito;
+  font-size: 40px;
+  text-align: center;
+  line-height: 33.599998474121px;
+  padding-top: 6.4000015258789px;
+  margin-top: -6.4000015258789px;
+  color: #4f345b;
+}
+
+#line_1 {
+  top: 127px;
+  left: 150px;
+  width: 456px;
+  height: 3px;
+  background: #000000;
+}
+
+#kesehatan_mental_yang_dibiarkan_tidak_terkendali_dapat_menyebabkan_masalah_dengan_perasaan__pemikiran__dan_perilaku_seseorang__ada_berbagai_jenis_penyakit_mental__termasuk_skizofrenia__depresi__gangguan_bipolar__dan_adhd__beberapa_penyakit_mental_lebih_umum_daripada_yang_lain__dan_beberapa_lebih_sulit_diobati__namun__pada_sebagian_besar_kasus__penyakit_mental_dapat_dikelola_dengan_baik_dengan_pengobatan_yang_tepat_ {
+  top: 179px;
+  left: 120px;
+  width: 532px;
+  height: 207px;
+  overflow: hidden;
+  font-family: Nunito;
+  font-size: 18px;
+  text-align: center;
+  line-height: 33.599998474121px;
+  margin-top: -5.8666661580404px;
+  height: 223px;
+  color: #522068;
+}
