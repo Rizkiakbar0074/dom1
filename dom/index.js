@@ -13,7 +13,8 @@ function changePage(prev, next, num) {
         // nanti display hasil stress sedang jadi flex
     } else if(total>=21 && total<=30) {
         // nanti display hasil stress tinggi jadi flex
-    }
+    } 
+   
     
     if (next === 'finish' && (total > 100 || total < 1)) {
         next = 'failed';
