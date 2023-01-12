@@ -32,10 +32,32 @@ main{display:flex;
     width: 100%;
 }
 
-.gif-low{
+.gif-high{
     height: 30em;
     width:30em;
     background-image: url(./stressberat.gif) ;
+    background-size:cover;
+    border-radius: 8px;
+    box-shadow: 5px 10px rgba(255,255,255,.5);
+    /* margin-left: 100px; */
+    
+}
+
+.gif-intermediate{
+    height: 30em;
+    width:30em;
+    background-image: url(./stresssedang.gif) ;
+    background-size:cover;
+    border-radius: 8px;
+    box-shadow: 5px 10px rgba(255,255,255,.5);
+    /* margin-left: 100px; */
+    
+}
+
+.gif-low{
+    height: 30em;
+    width:30em;
+    background-image: url(./stressringan.webp) ;
     background-size:cover;
     border-radius: 8px;
     box-shadow: 5px 10px rgba(255,255,255,.5);
