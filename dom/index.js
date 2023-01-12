@@ -3,7 +3,7 @@ let total = 0;
 
 function stress(data){
     // console.log(data);
-    return (data/30)*10
+    return (data/40)*10
 
 }
 
@@ -11,39 +11,42 @@ function stress(data){
 function changePage(prev, next, num) {
     // pilih elementnya
     // console.log(prev);
+    const span = document.querySelector('.hasilTest')
     if (num) {
         total += num;
     }
-    let hasilKalkulasi = Math.ceil(stress(total))
+    let hasilKalkulasi = stress(total)
+    // span.innerHTML = hasilKalkulasi
+    // console.log(hasilKalkulasi);
 
-   
-    // let final= Math.ceil((total/30)*10)
-    // if(total>=0 && total<=10){
-    //     //nanti display hasil stress rendah jadi flex
-    //     1-4
+    let score = document.getElementsByClassName("hasilTest")
+//     if(hasilKalkulasi >=1 && hasilKalkulasi <=4){
+        
+//     } else if(hasilKalkulasi >=5 && hasilKalkulasi <=7){
+        
+//     } else if (hasilKalkulasi >=8 && hasilKalkulasi <=10){
+//         score.textContent = `${hasilKalkulasi}/10`
+        
 
-    // } else if (total>=11 && total<=20){
-    //     // nanti display hasil stress sedang jadi flex
-    //     // 5-7
-    // } else if(total>=21 && total<=30) {
-    //     // nanti display hasil stress tinggi jadi flex
-    //     // 8-10
-    // } 
-   
+//    }
     
-    if (next === 'finish' && (total > 100 || total < 1)) {
+    if (next === 'akhir' && (total > 100 || total < 1)) {
         next = 'failed';
     }
     // console.log(next);
     document.getElementById(prev).style.display = 'none';
     document.getElementById(next).style.display = 'flex';
-    
+    if (next === "finish") {
+        document.getElementById("hasilContainer").style.display = "block"
+        document.getElementById("mainContainer").style.display = "none"
+    }
+    span.innerHTML=`${hasilKalkulasi}/10`
     // console.log(total)
     // ketika sudah sampai finish maka result kita rubah isinya menjadi total
-    if (next === 'finish') {
-        document.getElementById('result').textContent = `${hasilKalkulasi}/10`;
-    }
-    if (next === 'home') {
-        total = 0;
-    }
+    // if (next === 'akhir') {
+    //     document.getElementById('result').textContent = `${hasilKalkulasi}/10`;
+    // }
+    // if (next === 'home') {
+    //     total = 0;
+    // }
 }
