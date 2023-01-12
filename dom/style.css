@@ -241,6 +241,34 @@ h1 {
   transition: all 0.1s;
   -webkit-transition: all 0.1s;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.btn-video {
+  padding: 25px 80px;
+  margin-top: 70px;
+  margin-bottom: 400px;
+  margin-left: 100px;
+  border-radius: 30px;
+  float: right;
+  font-family: Montserrat;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #3498db;
+  border-bottom: 5px solid #2980b9;
+  text-shadow: 0px -2px #2980b9;
+}
+
+.btn-video:active {
+  transform: translate(220px, 52px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
+}
+
 .btn-konsul {
   padding: 25px 80px;
   margin-top: 70px;
