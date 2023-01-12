@@ -7,6 +7,14 @@ function changePage(prev, next, num) {
     if (num) {
         total += num;
     }
+    if(total>=0 && total<=10){
+        //nanti display hasil stress rendah jadi flex
+    } else if (total>=11 && total<=20){
+        // nanti display hasil stress sedang jadi flex
+    } else if(total>=21 && total<=30) {
+        // nanti display hasil stress tinggi jadi flex
+    }
+    
     if (next === 'finish' && (total > 100 || total < 1)) {
         next = 'failed';
     }
