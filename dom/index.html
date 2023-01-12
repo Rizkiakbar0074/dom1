@@ -12,8 +12,8 @@
   <body>
     <div id="mainContainer" class="container">
       <div id="home" class="layer">
-        <!-- <h1>are you ready</h1> -->
-        <img src="./images/start.gif" width="100%" />
+        <h1></h1>
+        <img src="./images/gambar-start.gif" width="100%" />
         <button onclick="changePage('home', 'layer1')" class="absolute">Mulai</button>
       </div>
       <!-- <div id="start" class="layer">
@@ -121,8 +121,9 @@
           <button onclick="changePage('layer10', 'finish', 4)">Selalu</button>
         </div>
       </div>
-      <div id="finish" class="layer-finish"></div>
-
+      <div id="finish" class="layer-finish">
+      </div>
+   
       <div id="failed" class="layer">
         <img src="./images/start background.svg" width="100%" />
         <h1 class="absolute">ANDA NGAWUR</h1>
@@ -130,20 +131,58 @@
       </div>
     </div>
     <!-- INI LAYOUT HASIL DISINI GUYSSS -->
-    <div id="hasilContainer" class="hasil-container">
+    <div id="hasilContainer" class="hasil-container" style="display: none;">
       <main>
         <h1>Stress Level Kamu</h1>
         <div class="cover-result">
-          <span class="hasilTest">7/10</span>
-          <div class="gif-high"></div>
+            <span class="hasilTest">7/10</span>
+            <div class="gif-high"></div>
+            <!-- <div class="gif-high"></div>
+            <div class="gif-high"></div> -->
+
         </div>
         <div class="cover-btn">
-          <button class="btn-video">Klik Video Di Sini</button>
-          <!-- <button class="btn-konsul">Klik Untuk Konsul</button> -->
-          <a href="file:///Users/macbook/Documents/codeng/web-bookee/dom/konsul/index.html" class="btn-konsul">Klik Untuk Konsul</a>
+            <button class="btn-video" style="display: none;">Klik Video Di Sini</button>
+            <button class="btn-konsul">Klik Untuk Konsul</button>
         </div>
-      </main>
+    </main>
     </div>
+    <!-- medium -->
+    <div id="hasilContainerMedium" class="hasil-container" style="display: none;">
+      <main>
+        <h1>Stress Level Kamu</h1>
+        <div class="cover-result">
+            <span class="hasilTest" id ='hasiltesmedium'>7/10</span>
+            <div class="gif-intermediate"></div>
+            <!-- <div class="gif-high"></div>
+            <div class="gif-high"></div> -->
+
+        </div>
+        <div class="cover-btn">
+            <button class="btn-video">Klik Video Di Sini</button>
+            <button class="btn-konsul">Klik Untuk Konsul</button>
+        </div>
+    </main>
+    </div>
+
+    <!-- low -->
+    <div id="hasilContainerLow" class="hasil-container" style="display: none;">
+      <main>
+        <h1>Stress Level Kamu</h1>
+        <div class="cover-result">
+            <span class="hasilTest" id ='hasilteslow'>7/10</span>
+            <div class="gif-low"></div>
+            <!-- <div class="gif-high"></div>
+            <div class="gif-high"></div> -->
+
+        </div>
+        <div class="cover-btn">
+            <button class="btn-video"> <a href="https://www.youtube.com/">Klik Video Di Sin</a>i</button>
+            <button class="btn-konsul">Klik Untuk Konsul</button>
+        </div>
+    </main>
+    </div>
+
 
     <!-- low -->
     <script src="./index.js"></script>

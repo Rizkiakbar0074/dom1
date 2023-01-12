@@ -38,7 +38,7 @@ if (next === "finish") {
     // document.getElementById("hasilContainerLow").style.display = "none";
     document.getElementById("mainContainer").style.display = "none";
     if (hasilKalkulasi >= 1 && hasilKalkulasi <= 4) {
-        console.log("MASUK ====")
+        // console.log("MASUK ====")
         document.getElementById('hasilteslow').innerText = `${hasilKalkulasi}/10` 
         document.getElementById("hasilContainerLow").style.display = "block";
         // classGif.classList.remove(`gif-high`);
