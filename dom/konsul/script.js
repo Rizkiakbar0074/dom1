@@ -61,7 +61,7 @@ function createList(imageUrl, name, description) {
 
   const btnDetail = document.createElement("button");
   btnDetail.className = "btn btn-outline-primary";
-  btnDetail.innerText = "Pilih Dokter";
+  btnDetail.innerText = "Pilih Konsultan";
 
   btnDetail.onclick = function () {
     descriptionBox.hidden = false;
