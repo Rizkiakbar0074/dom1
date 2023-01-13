@@ -1,42 +1,42 @@
 .navbar {
-    height: 40em;
+  height: 40em;
 }
 
 .navbar-brand {
-    margin-top: -200px;
-    margin-left: 90px;
+  margin-top: -200px;
+  margin-left: 90px;
 }
 
 .greeting-box {
-    margin: 50px;
-    margin-left: 100px;
-    margin-top: -250px;
-    color: antiquewhite;
+  margin: 50px;
+  margin-left: 100px;
+  margin-top: -250px;
+  color: antiquewhite;
 }
 
 .greeting {
-    margin-bottom: 20px;
-    font-size: 70px;
+  margin-bottom: 20px;
+  font-size: 70px;
 }
 
 .janjidoc {
-    display: block;
-    font-size: 100px;
+  display: block;
+  font-size: 100px;
 }
 
 .janjidoc-desc {
-    max-width: 40%;
-    font-size: 14px;
-    text-align: justify;
+  max-width: 40%;
+  font-size: 14px;
+  text-align: justify;
 }
 
 .book {
-    position: absolute;
-    right: 100px;
-    top: 50px;
+  position: absolute;
+  right: 100px;
+  top: 50px;
 }
 
 .book-here {
-    text-align: center;
-    margin: 50px 0;
+  text-align: center;
+  margin: 50px 0;
 }
